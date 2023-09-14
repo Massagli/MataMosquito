@@ -1,5 +1,43 @@
 .imagem_mosquito{
-    width: 50px;
-    height: 50px;
     position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.painel{
+    width: 190px;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.vidas img{
+    width:40px;
+    float: center;
+}
+
+.cronometro{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#tamanho_1{
+    position: absolute;
+    width:60px;
+    height: 60px;
+}
+#tamanho_2{
+    position: absolute;
+    width:80px;
+    height: 80px;
+}
+#tamanho_3{
+    position: absolute;
+    width:90px;
+    height: 90px;
 }

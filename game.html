@@ -8,7 +8,22 @@
     <script src="./assets/js/game.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body onresize="ajustaPalco()" >
-    <script>posicao_randomica()</script>
+<body style="background-image: URL(./assets/img/quarto.jpg); background-size: 100%, 100%; background-repeat: no-repeat;" onresize="ajustaPalco()" >
+    
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="./assets/img/coracao_completo.png">
+            <img id="v2" src="./assets/img/coracao_completo.png">
+            <img id="v3" src="./assets/img/coracao_completo.png">
+        </div>
+        <div class="cronometro">
+            Tempos Restante: 
+        </div>
+    </div>
+    <script>
+        setInterval(function(){posicao_randomica()}, 1500)
+
+    </script>
 </body>
 </html>
+
